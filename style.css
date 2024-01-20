@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#main #nav{
+    width: 100%;
+    height: 100px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+#nav #nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#nav #nav-part1 i{
+    font-size: 50px;
+}
+
+#nav #nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+#nav #nav-part2 button{
+    padding: 10px 20px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+#nav #nav-part2 h4{
+    display: flex;
+    gap: 10px;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 2px;
+}
+
+#main-part2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+#main-part2>img{
+    border-radius: 50px;
+    width: 80%;
+    height: 80vh;
+}
+
+#main-part2 #middil{
+    /* width: 0px; */
+    height: 100px;
+    /* background-color: red; */
+    position: absolute;
+    top: 60%;
+}
+
+#main-part2 #middil button{
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#main #bottom{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    top: 90%;
+    justify-content: center;
+}
+
+#main #bottom button{
+    width: 100px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#main #bottom button img{
+    width: 50%;
+    /* height: 100%; */
+}
